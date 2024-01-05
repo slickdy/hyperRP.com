@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Navbar</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- For caret icon -->
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Departments <i class="fas fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="department/lspd.html">Los Santos Police Department</a>
+        <a href="department/sahp.html">San Andreas Highway Patrol</a>
+        <a href="department/bcso.html">Blaine County Sheriff's Office</a>
+        <a href="department/sacd.html">San Andreas Communications Department</a>
+        <a href="department/safd.html">Los Santos Fire Department</a>
+        <a href="department/Civilian.html">Civilian Operations</a>
+        <a href="department/Media.html">Media Department</a>
+      </div>
+      <!-- Bottom Navigation Bar -->
+      <nav class="bottom-navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="department/lspd.html">Los Santos Police Department</a></li>
+          <!-- Additional navigation items... -->
+        </ul>
+      </nav>
+
+    </div> 
+    <a href="#contact">Contact</a>
+    <div id="indicator"></div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
